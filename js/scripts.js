@@ -5,13 +5,13 @@ function pingPong (endNumber) {
   var numbers = [];     // clear the array each time function runs
   for (var i = 1; i <= endNumber; i++) {
     if (i % 15 === 0) {
-    numbers.push("pingpong");
+      numbers.push("pingpong");
     } else if (i % 3 === 0) {
-    numbers.push("ping");
+      numbers.push("ping");
     } else if (i % 5 === 0) {
-    numbers.push("pong");
+      numbers.push("pong");
     } else {
-    numbers.push(i);
+      numbers.push(i);
     };
   };
   result = numbers.join(', ');  // make array a string w/ correct formatting
@@ -19,9 +19,10 @@ function pingPong (endNumber) {
 };
 
 $(function(){
-  $("form#userInput").submit(function(event){
+  $("form#userInput").submit(function(event) {
     $("#result").empty();
     var endNumber = $("input#endNumber").val();
+
     $("#result").append(pingPong(endNumber));
     event.preventDefault();
   });
