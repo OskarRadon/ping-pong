@@ -18,10 +18,10 @@ _Create a web application that takes a number from a user and returns a range of
 _Bootstrap, Mocha, Chai, jQuery_
 
 ## Specs
-[x] _Count up to given number_
-[x] _Replace numbers divisible by 3 with ping_
-[x] _Replace numbers divisible by 5 with pong_
-[x] _Replace numbers divisible by 15 with pingpong_
+- _Count up to given number_
+- _Replace numbers divisible by 3 with ping_
+- _Replace numbers divisible by 5 with pong_
+- _Replace numbers divisible by 15 with pingpong_
 
 ### License
 
