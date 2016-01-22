@@ -1,4 +1,12 @@
 .jumbotron {
   text-align: center;
-  background-color: tan;
+  background-color: #E55934;
+}
+
+#contact {
+  background-color: #9BC53D;
+}
+
+#contact h4 {
+  color: #E55934;
 }
