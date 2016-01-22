@@ -1,5 +1,5 @@
 var numbers = [];
-// var result = "";
+var result = "";
 
 function pingPong (endNumber) {
   var numbers = [];     // clear the array each time function runs
@@ -14,9 +14,10 @@ function pingPong (endNumber) {
     numbers.push(i);
     };
   };
-  return numbers;
+  result = numbers.join(', ');  //make array a string w/ correct formatting
+  return result;
 };
 
 
-// result = numbers.join(', ');  //make array a string w/ correct formatting
+
 // WORRY ABOUT THIS AT THE END
