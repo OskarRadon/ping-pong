@@ -4,7 +4,7 @@ describe("pingPong", function() {
   });
 
   it("will replace all numbers divisible by 3 with 'ping'", function(){
-    expect(pingPong(5)).to.eql([1, 2, 3, 4, 'ping']);
+    expect(pingPong(5)).to.equal([1, 2, 3, 4, 'ping']);
   });
 
 });
