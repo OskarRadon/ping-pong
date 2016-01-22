@@ -6,6 +6,8 @@ function pingPong (endNumber) {
   for (var i = 1; i <= endNumber; i++) {
     if (i % 3 === 0) {
     numbers.push("ping");
+    } else if (i % 5 === 0) {
+    numbers.push("pong");
     } else {
     numbers.push(i);
     };
