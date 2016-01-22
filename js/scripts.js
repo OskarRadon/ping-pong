@@ -23,11 +23,8 @@ $(function(){
     $("#result").empty();
     var endNumber = $("input#endNumber").val();
     var errorCheck = $.isNumeric(endNumber);
-      if (errorCheck = true) {
-        $("#result").append(pingPong(endNumber));
-      } else if (errorCheck = false) {
-        $("#result").append("Please enter a number");
-      };
+
+    $("#result").append("Please enter a number");
     event.preventDefault();
   });
 });
