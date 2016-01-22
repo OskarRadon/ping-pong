@@ -22,7 +22,7 @@ $(function(){
   $("form#userInput").submit(function(event){
     var endNumber = $("input#endNumber").val();
 
-    $("#result").text(pingPong(endNumber));
+    $("#result").append(pingPong(endNumber));
     event.preventDefault();
   });
 });
