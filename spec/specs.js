@@ -1,8 +1,4 @@
 describe("pingPong", function() {
-  it("will identify NaN", function() {
-    expect(pingPong("sfsdfadf")).to.equal(true);
-  });
-
   it("will count up to a given number", function() {
     expect(pingPong(5)).to.equal("1, 2, ping, 4, pong");
   });
