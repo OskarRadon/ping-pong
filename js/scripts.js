@@ -14,10 +14,6 @@ function pingPong (endNumber) {
     numbers.push(i);
     };
   };
-  result = numbers.join(', ');  //make array a string w/ correct formatting
+  result = numbers.join(', ');  // make array a string w/ correct formatting
   return result;
 };
-
-
-
-// WORRY ABOUT THIS AT THE END
