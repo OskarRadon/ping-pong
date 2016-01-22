@@ -8,6 +8,8 @@ function pingPong (endNumber) {
     numbers.push("ping");
     } else if (i % 5 === 0) {
     numbers.push("pong");
+  } else if (i % 15 === 0) {
+    numbers.push("pingpong");
     } else {
     numbers.push(i);
     };
