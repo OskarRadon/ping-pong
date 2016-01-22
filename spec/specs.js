@@ -1,6 +1,6 @@
 describe("pingPong", function() {
-  it("will display error if input is NaN", function(){
-    expect(pingPong("jafskjh")).to.equal(true);
+  it("will identify NaN", function() {
+    expect(pingPong("sfsdfadf")).to.equal(true);
   });
 
   it("will count up to a given number", function() {
