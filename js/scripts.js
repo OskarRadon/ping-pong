@@ -22,9 +22,8 @@ $(function(){
   $("form#userInput").submit(function(event){
     $("#result").empty();
     var endNumber = $("input#endNumber").val();
-    var errorCheck = $.isNumeric(endNumber);
 
-    $("#result").append("Please enter a number");
+    $("#result").append(pingPong(endNumber));
     event.preventDefault();
   });
 });
