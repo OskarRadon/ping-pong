@@ -17,3 +17,12 @@ function pingPong (endNumber) {
   result = numbers.join(', ');  // make array a string w/ correct formatting
   return result;
 };
+
+$(function(){
+  $("form#userInput").submit(function(event){
+    var endNumber = $("input#endNumber").val();
+
+    $("#result").text(pingPong(endNumber));
+    event.preventDefault();
+  });
+});
