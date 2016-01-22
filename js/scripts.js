@@ -20,8 +20,8 @@ function pingPong (endNumber) {
 
 $(function(){
   $("form#userInput").submit(function(event){
+    $("#result").empty();
     var endNumber = $("input#endNumber").val();
-
     $("#result").append(pingPong(endNumber));
     event.preventDefault();
   });
