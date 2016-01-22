@@ -19,7 +19,7 @@ function pingPong (endNumber) {
 };
 
 $(function(){
-  $("form#userInput").submit(function(event) {
+  $("form#userInput").submit(function(event){
     $("#result").empty();
     var endNumber = $("input#endNumber").val();
 
