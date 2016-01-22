@@ -9,8 +9,8 @@ function pingPong (endNumber) {
     } else {
     numbers.push(i);
     };
-  return numbers;
   };
+  return numbers;
 };
 
 
